@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+        <meta  http-equiv="content-security-policy"  content="default-src 'self' ; base-uri 'none' ;  form-action 'self' ">
+        <title>mini-registre de rendez-vous</title>
+        <link rel="stylesheet"  href="style.css">
+    </head>
+    <body>
+        <h1>Registre de rendez-vous</h1>
+        <p>Exercices : n' utilisez que des données fictives.</p>
+        <form id="form-rdv" autocomplete="off">
+            <label for="nom">Nom du patient(fictif) </label>
+            <input type="text" id="nom" required minlength="2" maxlength="50" autocomplete="off">
+            <label for="date">Date du rendez-vous</label>
+            <input type="date" id="date" required autocomplete="off">
+            <label for="motif">Motif du rendez-vous(fictif)</label>
+            <input type="text" id="motif" required minlength="3" maxlength="100" autocomplete="off">
+            <button type="submit">Ajouter</button>
+        </form>
+        <h2>Rendez-vous prévus</h2>
+        <ul id="list-rdv"></ul>
+        <script src="script.js"></script> 
+    </body>
+</html>
+
+
+
+
+                                                                    
