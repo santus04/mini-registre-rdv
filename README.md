@@ -6,3 +6,4 @@ Petite application web de gestion de rendez-vous, écrite en HTML, CSS et JavaSc
 
 Site en ligne : https://santus04.github.io/mini-registre-rdv/
 
+## Fonctionnalités
